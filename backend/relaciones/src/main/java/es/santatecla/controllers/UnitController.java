@@ -16,7 +16,7 @@ public class UnitController {
 		for (int i = 0; i < unitsArray.length; i++) {
 			unitsArray[i] = i;
 		}
-		model.addAttribute("units", "holi");
+		model.addAttribute("units", "Unidad"+unitsArray);
 		
 		return "index";
 		
